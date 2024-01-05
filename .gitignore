@@ -1,0 +1,40 @@
+# General Python ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.idea
+.Python
+env/
+.env
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Flask ignores
+instance/*
+!instance/.gitignore
+
+# Databases
+*.sqlite
+
+# Logs
+logs/
+*.log
+
+# OS specific
+.DS_Store
